@@ -1,1 +1,5 @@
+scan_interval: 60  # Tempo in secondi tra ogni scansione
+thresholds:
+  cpu: 80          # Soglia CPU (%)
+  memory: 75       # Soglia memoria (%)
 
