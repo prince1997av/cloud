@@ -1,3 +1,5 @@
-# Sovrascrive il backend di archiviazione per Cinder
-export CINDER_ENABLED_BACKENDS=${CINDER_ENABLED_BACKENDS:-my_backend}
+# Abilita l'ottimizzazione delle risorse
+export ENABLE_RESOURCE_OPTIMIZER=${ENABLE_RESOURCE_OPTIMIZER:-True}
+# Periodo di scansione per l'analisi delle risorse
+export RESOURCE_SCAN_INTERVAL=${RESOURCE_SCAN_INTERVAL:-60}
 
