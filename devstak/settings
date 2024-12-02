@@ -1,1 +1,9 @@
+# Nome del plugin
+define_plugin my_plugin https://example.com/my_plugin.git
+
+# Abilita servizi richiesti dal plugin
+enable_service my-plugin-service
+
+# Imposta variabili predefinite (personalizzabili dall'utente)
+MY_PLUGIN_VAR=${MY_PLUGIN_VAR:-default_value}
 
