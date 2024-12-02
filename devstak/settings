@@ -1,9 +1,11 @@
 # Nome del plugin
-define_plugin my_plugin https://example.com/my_plugin.git
+define_plugin resource_optimizer https://github.com/example/resource_optimizer.git
 
-# Abilita servizi richiesti dal plugin
-enable_service my-plugin-service
+# Abilita il servizio del plugin
+enable_service resource-optimizer
 
-# Imposta variabili predefinite (personalizzabili dall'utente)
-MY_PLUGIN_VAR=${MY_PLUGIN_VAR:-default_value}
+# Variabili globali
+RESOURCE_SCAN_INTERVAL=${RESOURCE_SCAN_INTERVAL:-60}
+ENABLE_RESOURCE_OPTIMIZER=${ENABLE_RESOURCE_OPTIMIZER:-True}
+
 
