@@ -1,1 +1,3 @@
+# Sovrascrive il backend di archiviazione per Cinder
+export CINDER_ENABLED_BACKENDS=${CINDER_ENABLED_BACKENDS:-my_backend}
 
